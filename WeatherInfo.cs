@@ -58,6 +58,13 @@ namespace myWeatherApplication
             public sys sys { get; set; }
         }
 
+        public class CitySearchResult
+        {
+            public string name { get; set; }
+            public string country { get; set; }
+            public string state { get; set; }
+        }
+
     }
 }
 
