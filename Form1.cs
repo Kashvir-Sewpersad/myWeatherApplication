@@ -91,5 +91,15 @@ namespace myWeatherApplication
         {
             getWeather();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picIcon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

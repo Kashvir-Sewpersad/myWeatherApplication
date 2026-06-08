@@ -164,6 +164,7 @@
             this.label2.Size = new System.Drawing.Size(102, 23);
             this.label2.TabIndex = 9;
             this.label2.Text = "Wind Speed";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // labWindSpeed
             // 
@@ -218,6 +219,7 @@
             this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picIcon.TabIndex = 14;
             this.picIcon.TabStop = false;
+            this.picIcon.Click += new System.EventHandler(this.picIcon_Click);
             // 
             // Form1
             // 
